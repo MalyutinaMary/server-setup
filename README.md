@@ -2,9 +2,14 @@
 
 ![image](https://github.com/user-attachments/assets/e870bcb7-0fb3-40db-82a1-6fe7347a2a71)
 
+## Оборудование
+* Роутер Cisco 3745
+
 ## NTP
 
 >`sh clock`
+>
+>`clock timezone <hours-offset>`
 >
 >`clock set HH:MM:SS MONTH DAY YEAR`
 >

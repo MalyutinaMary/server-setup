@@ -20,7 +20,7 @@
 
 >(config) `ntp master`
 
-Настроить NTP-сервер на устройстве:
+Настройка NTP-сервера:
 
 >(config) `ntp server <ip-address>`
 
@@ -81,9 +81,7 @@
 >(config) `line vty 0 4`
 >
 >(config-line) `transport input ssh`
-
-Настройка версии SSH:
-
+>
 >`sh ip ssh`
 >
 >(config) `ip ssh version 2`
